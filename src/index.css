@@ -5,6 +5,12 @@
   font-family: Quicksand;
 }
 
+@theme{
+  --color-black1: '';
+  --color-blue1: '';
+  --color-golden1: '';
+}
+
 .container{
   margin: 0 auto;
   max-width: 1280px;
