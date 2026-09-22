@@ -1,6 +1,8 @@
+import { useCounter } from "../../../contexts/CounterContext";
 import Para from "../../../ui/Para";
 
-const CounterUpdates = function({count}){
+const CounterUpdates = function(){
+    let {count} = useCounter();
 let state = 'neutral';
 let color = 'text-blue-600';
 if(count < 0){

@@ -1,15 +1,8 @@
+import { useCounter } from "../../../contexts/CounterContext"
 import Btn from "../../../ui/Btn"
 
-const CounterBtn = function({handleIncr, handleDcr}){
-function handleIncr(){
-    console.log('incr clicked');
-}
-function handleDcr(){
-    console.log('dcr clicked');
-}
-function reset(){
-    console.log('reset clicked');
-}
+const CounterBtn = function(){
+let {handleIncr, handleDcr, reset} = useCounter();
 
     return(
         <section className="my-1">

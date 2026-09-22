@@ -1,13 +1,7 @@
-import { useState } from "react"
-
+import { useCounter } from "../../../contexts/CounterContext"
 
 const Counterdisp = function(){
-let [count, setCount] = useState(0);
-
-let handleIncr = function(){
-setCount(count++);
-}
-
+let { count } = useCounter();
     return(
         <section className="my-1">
             <div className="container">
