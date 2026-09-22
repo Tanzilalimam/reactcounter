@@ -18,7 +18,7 @@ else if(count > 0){
         <section className="my-1">
             <div className="container">
                 <div>
-                <Para className={`${color}`} text={state}></Para>
+                <Para className={`${color}`} text={`state: ${state}`}></Para>
                 </div>
             </div>
         </section>

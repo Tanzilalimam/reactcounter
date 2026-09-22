@@ -6,7 +6,7 @@ let { count } = useCounter();
         <section className="my-1">
             <div className="container">
                 <div className="text-xl font-bold capitalize">
-                    display: {count}
+                    display count: {count}
                 </div>
             </div>
         </section>
